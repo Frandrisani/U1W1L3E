@@ -1,14 +1,19 @@
 body {
-  margin: 0, auto;
+  margin: 0;
   font-family: "Roboto", sans-serif;
 }
 
 header img {
   display: block;
-  margin: 0 auto;
+  margin: 1em auto;
   width: 9rem;
 }
-
+main {
+  /* crea una colonna e poi con i margin metti al centro */
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
 #border {
   border-top: 3px solid rgb(207, 207, 33);
 }
@@ -20,6 +25,7 @@ header img {
 .second_image img {
   display: block;
   margin: 0 auto;
+  border-radius: 10px 10px 10px 10px;
 }
 .second_image h6 {
   margin-top: 1rem;
@@ -34,7 +40,7 @@ header img {
 
 #featured h5 {
   margin-bottom: 0%;
-  color: red;
+  color: rgb(255, 123, 0);
   font-size: 1.5rem;
   margin-left: 1rem;
 }
